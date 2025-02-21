@@ -1,0 +1,395 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3a13d9bb-3700-499a-bcbc-99ebe364dcaa")
+	(paper "A4")
+	(title_block
+		(title "Motion Board")
+		(date "2025-02-02")
+		(rev "C")
+		(company "GlideSense Pro")
+		(comment 1 "Josue Cavazos Jr.")
+		(comment 2 "Andrew Thomas")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(text "[2] MCU"
+		(exclude_from_sim no)
+		(at 130.302 71.628 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "08393109-6ec2-41b5-bd6a-cfa10183b6fa")
+	)
+	(text "[3] Motion"
+		(exclude_from_sim no)
+		(at 221.234 71.628 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "0c3c30d0-55d7-4af0-98ef-56da0a5d8ad8")
+	)
+	(text "Motion Board"
+		(exclude_from_sim no)
+		(at 53.34 26.67 0)
+		(effects
+			(font
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "162625b3-3109-4e71-988a-bb6f7639fc59")
+	)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 49.022 71.374 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "301aee65-29ba-4741-9606-f429c6c7dd2a")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "261af741-6e1b-484d-a52f-1d5c1a73e63c")
+		(property "Reference" "H100"
+			(at 24.13 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 21.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "GSP RevC"
+				(path "/3a13d9bb-3700-499a-bcbc-99ebe364dcaa"
+					(reference "H100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a43148-6b71-452f-afc0-c982c828eedf")
+		(property "Reference" "H101"
+			(at 24.13 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 21.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "GSP RevC"
+				(path "/3a13d9bb-3700-499a-bcbc-99ebe364dcaa"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 82.55)
+		(size 69.85 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6164440d-c67c-48e2-9407-48130dd53f43")
+		(property "Sheetname" "Motion"
+			(at 201.93 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motion.kicad_sch"
+			(at 201.93 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GSP RevC"
+				(path "/3a13d9bb-3700-499a-bcbc-99ebe364dcaa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 82.55)
+		(size 69.85 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dfda6736-f99f-409a-a8c2-f65712ba303c")
+		(property "Sheetname" "Power"
+			(at 30.48 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 30.48 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GSP RevC"
+				(path "/3a13d9bb-3700-499a-bcbc-99ebe364dcaa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 82.55)
+		(size 69.85 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3fc1977-3a9b-4f7d-b26f-75d16b1feb53")
+		(property "Sheetname" "MCU"
+			(at 115.57 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 115.57 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GSP RevC"
+				(path "/3a13d9bb-3700-499a-bcbc-99ebe364dcaa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
