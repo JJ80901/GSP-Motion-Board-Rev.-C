@@ -22,3 +22,12 @@ PCB Design led by Josue Cavazos
 ---
 
 ### Repository Project Structure:
+- *3D Models* - Models for PCB components not found in the standard KiCad library
+- *BOM* - An interactive HTML bill of materials (generated from the *Interactive HTML BOM* Plugin)
+- *Datasheets* - Datasheets for specific devices used, such as the buck converter, transistors, battery charger, etc.
+- *Docs* - Reference schematics used in the circuit design phase
+- *Images* - High quality renderings of the final PCB in 3D
+- *Libraries* - Folders to include schematic symbols and footprints for components not found in the standard KiCad library
+- *Schematics* - PDFs of entire PCB schematic
+- *Simulations* - LTSpice simulation block with any custom component libraries
+- KiCad hardware design files
