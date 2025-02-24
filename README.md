@@ -12,3 +12,13 @@ Schematic design by Josue Cavazos and Andrew Thomas
 PCB Design led by Josue Cavazos
 
 ---
+
+### What you'll find in this repository:
+- Hardware designs (made in KiCad)
+- Reference designs
+- Device datasheets
+- Circuit simulations
+
+---
+
+### Repository Project Structure:
