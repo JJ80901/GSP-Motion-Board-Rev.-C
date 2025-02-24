@@ -1,4 +1,4 @@
-# GSP Wireless Motion Board Rev. D
+# GSP Wireless Motion Board Rev. C
 **Wireless motion board for senior design at Missouri S&amp;T**
 
 This board is designed to capture and wirelessly transmit motion data during a frisbee toss. It features an ESP32-C3-Mini-N4 microcontroller for efficient Bluetooth Low Energy (BLE) communication and an ICM-42670 high-precision 6DOF IMU for real-time motion tracking.
